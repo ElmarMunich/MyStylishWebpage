@@ -1,16 +1,11 @@
 /* This is a CSS comment. Notice that CSS comments are
 enclosed by different characters than HTML comments. */
-
-/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
-You can apply CSS elements to entire HTML classes.
-outline: 1px solid red !important;
-https://lightroom.adobe.com/shares/1aaa705e3cfe448b91f011fe46ada5df/albums/0754c0be5ce6439a90944445893c5c09/assets/942cd979e6464c0fa1cc4ad671a5550c*/
 body {
 background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(100,255,100,0.5));
 }
 
 h1 {
-  font-family: PAPYRUS;
+  font-family: papyrus;
   font-weight:bold;
   font-size: 50px;
   color: black;
@@ -18,10 +13,9 @@ h1 {
   display: -webkit-flex;
   padding: 30px 20px 10px 30px;
   text-shadow: 2px 5px 3px yellow;
-;
 }
 h2 {
-  font-family: PAPYRUS;
+  font-family: papyrus;
   font-weight:bold;
   font-size: 30px;
   color: black;
@@ -29,17 +23,19 @@ h2 {
   display: -webkit-flex;
   padding: 20px 20px 5px 30px;
   text-shadow: 1px 1px 2px red;
-;
 }
-.veg {
+h3 {
+  font-family: herculanum;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.5);
   display: -webkit-flex;
-  display: flex;
+  padding: 20px 20px 5px 30px;
 }
 p {
-  font-family: Courier;
-  font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-family: courier;
+  font-size: 18px;
+  margin: 10px 20px 20px 20px;
   color: black;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -49,23 +45,84 @@ p {
 }
 img {
   max-width: 460px;
-  padding: 10px;
+  padding: 20px;
+  object-fit: contain;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+footer {
+  outline: 1px solid black;
+  margin-left: 20px;
+}
+.veg {
+  display: -webkit-flex;
+  display: flex;
+}
+.fruits {
+  display: -webkit-flex;
+  display: flex;
+  outline: 1px dotted;
+}
+.text {
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+}
+.comicred {
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: red;
+  background-color: white;
+}
+.comicorange {
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: orange;
+  background-color: white;
+}
+.comicyellow {
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: yellow;
+  background-color: white;
+}
+.comicgreen {
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: green;
+  background-color: white;
+}
+.comicblue{
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: blue;
+  background-color: white;
+}
+.comicindigo{
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: indigo;
+  background-color: white;
+}
+.comicviolet{
+  font-family: comic sans ms;
+  font-size: 18px;
+  color: violet;
+  background-color: white;
+}
 .darkgreen {
   color: darkgreen;
 }
-.darkbluered {
+.darkred {
   color: darkred;
 }
 .darkblue {
   color: darkblue;
 }
 .green {
-  color: green;H^
+  color: green;
 }
 .red {
   color: red;
@@ -76,16 +133,16 @@ img {
 .orange {
   color: orange;
 }
+.yellow {
+  color: yellow;
 }
-.purple {
-  color: purple;
+.indigo {
+  color: indigo;
 }
-.grey {
-  color: grey;
-}
-.black {
-  color: black;
+.violet {
+  color: violet;
 }
 .blank {
   "    ";
   color: darkgrey;
+}
