@@ -71,43 +71,43 @@ footer {
   align-items: flex-start;
 }
 .comicred {
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: red;
   background-color: white;
 }
 .comicorange {
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: orange;
   background-color: white;
 }
 .comicyellow {
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: yellow;
   background-color: white;
 }
 .comicgreen {
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: green;
   background-color: white;
 }
 .comicblue{
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: blue;
   background-color: white;
 }
 .comicindigo{
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: indigo;
   background-color: white;
 }
 .comicviolet{
-  font-family: comic sans ms;
+  font-family: "comic sans ms";
   font-size: 18px;
   color: violet;
   background-color: white;
@@ -143,6 +143,5 @@ footer {
   color: violet;
 }
 .blank {
-  "    ";
   color: darkgrey;
 }
